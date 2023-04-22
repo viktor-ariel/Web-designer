@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css');
+
+
+body{
+	margin: 0;
+	padding: 0;
+	background: black;
+	text-decoration: ;
+	color: #111;
+	
+
+}
+.principal{
+	width: 1100px;
+	background: darkblue;
+	margin: 0 auto;
+}
+img{
+	width: 100%;
+}
+.logo{
+	width: 138px;
+	height: 76px;
+	float: left;
+	padding-top: 27px;
+	margin-top: 10px;
+	margin-left: 37px;
+}
+.titulo{
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
+	color: black;
+	float: left;
+	margin-top: 75px;
+	margin-left: 30px ;
+}
+
+
+.topo{
+	width: 100%;
+	height: 210px;
+	background: rgb(2,0,36);
+	background: linear-gradient(261deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 68%);
+}
+
+.menu{
+	width: 100%;
+	height: 50px;
+	background: rgba(0,212,255,1) 68%;
+}
+.menu ul{
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.menu a{
+	text-decoration: none;
+	color: #fff;
+}
+.menu li{
+
+	list-style-type: none;
+	float: left;
+	
+	padding: 14px 20px 14px 20px;
+	width: 58px;
+	text-align: center;
+}
+.menu li:hover{
+	border-bottom: 1px solid yellow;
+	color: yellow;
+}
+
+
+
+
+.corpo{
+	width: 100%;
+	background: powderblue;
+	float: left;
+	padding-bottom: 100px;
+}
+.ulcont{
+	float: left;
+	margin: 1px;
+	width: 830px;
+	margin-left: 55px;
+	padding: 0px;
+	margin-bottom: 8px;
+	margin-top: 17px;
+}
+.ulcont li{
+	float: left;
+	margin: 10px;
+	list-style-type: none;
+}
+.ulcont img{
+	width: 180px;
+}
+.conteudo{
+	float: left;
+	margin: 0px;
+	/* height: 258px; */
+	width: 0;
+	margin-top: 0px;
+}
+.conteudo li{
+	text-align: center;
+	text-decoration: none;
+	margin: 13px;
+	margin-top: 0px;
+	margin-bottom: 69px;
+}
+.lateral{
+	float: right;
+	margin: 18px;
+	padding: 0;
+	margin-right: 47px;
+	margin-top: 58px;
+}
+.class li{
+	float: left;
+}
+.lateral h3{
+	color: gray;
+	text-align: center;
+}
+.lateral li{
+	color: gray;
+	text-align: center;
+	list-style-type: none;
+}
+.ulcont a{
+	border-radius: 12px;
+	background: cadetblue;
+	margin-left: 27px;
+	margin-left: 0px;
+	border-right: 54px;
+	border-left: 54px;
+	border: 11px solid cadetblue;
+	padding-left: 38px;
+	padding-right: 38px;
+}
+.ulcont p { 
+	width: 180px;
+	height: 18px;
+}
+.ulcont h3{
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.lateral ul{
+	padding-left: 0px;
+}
+.ulcont a:hover{
+    background: azure;
+    border-color: azure ;
+}
+
+
+
+/*Classes dos textos sem ser a página principal*/
+.texto{
+	float: left;
+	width: 100%;
+}
+.caixatexto{
+	width: 778px;
+	float: left;
+}
+
+
+
+.rodape{
+	width: 100%;
+	background: mediumslateblue;
+	height: 250px;
+	float: left;
+
+}
+
+
+	
+.whatsapp-link {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+	background-color: #25d366;
+	color: #fff;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 1px 1px 2px #888;
+	z-index: 1000;
+}
+ 
+.fa-whatsapp {
+	margin-top: 16px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="bootstrap/dist/js/bootstrap.js"></script>
+    <link rel="icon" href="img/icon.png">
+    <title>Foco</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo-alien">
+                <img src="./img/logo.png" class="imglogo" alt="">
+            </div>
+            <div class="menu-icone" id="menu-icone">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="produtos.html">PRODUTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="lista-de-espera.html">LISTA DE ESPERA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gratidao.html">GRATIDÃO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">CONTATO</a>
+                </li>
+            </ul>
+            <nav class="navbar">
+                <a class="navbar-brand">
+                    Olá nós somos quem vai te levar ao próximo milhão
+                    <img src="./img/hello.png" width="30" height="30" class="d-inline-block align-top" alt="">
+
+                </a>
+            </nav>
+        </header>
+        <section class="section-espera">
+            <main>
+                <div class="title">
+                    <h1>As vagas para o próximo curso on-line serão abertas em qual dia ?</h1>
+                </div>
+                <div class="subtitle">
+                    <h5>Clique no botão abaixo para entrar na lista de ESPERA e seja o PRIMEIRO A SER AVISADO quando abrirem as inscrições:</h5>
+                </div>
+                <div class="form">
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control" placeholder="NOME">
+                            <input type="text" id="tel" name="tel" class="form-control" placeholder="TELEFONE"maxlength="16"
+                            OnKeyPress="formatar('(##) # ####-####',this)" placeholder="Digite Telefone" required>
+                            <button type="submit" class="btn btn-primary" id="myButton">Quero entrar na lista de Espera!</button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+
+        </section>
+        <footer class="footer">
+            <div>
+                <p>
+                    Copyright - 2023 - Todos os direitos reservado
+                </p>
+                <span class="develop">Site Desenvolvidado por <a href="https://github.com/viktor-ariel">Viktor Ariel</a>
+                </span>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="./script/script.js">
+</script>
+
+</html>
