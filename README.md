@@ -1,14 +1,37 @@
-# Link para todos os sites que eu desenvolvi em web desing
+# Link For All Developed Sites - Web Desing
 
-https://site-responsivo-comhtml-css.netlify.app
+ <a href="https://site-responsivo-comhtml-css.netlify.app">Responsive Website</a>
 
-https://landing-page-html-css-bootstrap.netlify.app
-
-https://triangulocomcss.netlify.app
-
-https://imc-html-css-js.netlify.app
+ <a href="https://landing-page-html-css-bootstrap.netlify.app">Landing Page</a>
+ 
+ <a href="https://triangulocomcss.netlify.app">Triangle In CSS</a>
 
 
-https://arquitetura-de-site.netlify.app
+ <a href="https://imc-html-css-js.netlify.app">Body Mass Index </a>
 
-https://aprendendocsshover.netlify.app
+
+ <a href="https://arquitetura-de-site.netlify.app">Website Architecture </a>
+
+
+ <a href="https://aprendendocsshover.netlify.app">Hover CSS </a>
+
+
+<hr>
+<h2>💻Tools</h2>
+
+- JAVASCRIPT
+
+- HTML
+
+- CSS
+
+- BOOTSTRAP
+
+- NETLIFY
+
+
+
+<hr>
+<h2>📱Contact</h2>
+
+- viktorariel777@gmail.com
